@@ -1,6 +1,9 @@
 # Microservice Workshop Day 2, Exercises
 
-## Exercise 0: A Simple Service
+## Exercise 0: Tools of the Trade
+Install mist-cloud tools: https://mist-cloud.notion.site/Installing-mist-cli-Novice-c2c5662922094f57af8a9eac5204f919
+
+## Exercise 1: A Simple Service
 1. Make a product service
     ```json
     // Default/service1/mist.json
@@ -52,7 +55,7 @@
         http://localhost:3000/rapid/view-product; echo ""; sleep 30; done
     ```
 
-## Exercise 1: Adding More Services
+## Exercise 2: Adding More Services
 1. Add a user-service which posts the users preferred location back to the rapid
     <details>
       <summary>Spoiler</summary>
@@ -114,7 +117,7 @@
     ```
     </details>
 
-## Exercise 2: Welcome to Gitlab
+## Exercise 3: Welcome to Gitlab
 1. Create a gitlab account
 2. Create a blank project in gitlab (_without_ README)
 3. Click clone and copy the https url
@@ -132,7 +135,8 @@
     git clone [clone url from step 3]
     ```
 6. Open vscode from this new location
-# Exercise 3: Continuous Integration
+
+# Exercise 4: Continuous Integration
 1. Run the command
     ```shell
     npm i --save-dev typescript
@@ -165,7 +169,7 @@
 6. Make it fail
 7. Fix it again
 
-## Exercise 4: Safer Integration
+## Exercise 5: Safer Integration
 1. Extract the product service to a method
     <details>
       <summary>Spoiler</summary>
@@ -327,7 +331,7 @@
         - npm run test -- -t=#fast
     ```
 
-## Exercise 5: Toggling Features
+## Exercise 6: Toggling Features
 1. Make a new ProductsAirlock class that just returns a constant
 1. Make a new `FeatureToggles`-class
     <details>
@@ -346,7 +350,7 @@
 4. Commit and push your changes
 5. Did the pipeline pass?
 
-## Exercise 6: Continuous Delivery
+## Exercise 7: Continuous Delivery
 8. Add slow tests to pipeline
     <details>
       <summary>Spoiler</summary>
@@ -371,7 +375,7 @@
     ```
     </details>
 
-## Exercise 7: Continuous Deployment
+## Exercise 8: Continuous Deployment
 
 
 
