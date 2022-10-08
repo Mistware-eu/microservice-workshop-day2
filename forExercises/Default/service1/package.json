@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mist-cloud-eu/mist-tools-ts": "^1.1.0",
+    "@mist-cloud-eu/mist-tools-ts": "^1.0.0",
     "@mistware/http-lib": "^1.0.0"
   },
   "devDependencies": {
