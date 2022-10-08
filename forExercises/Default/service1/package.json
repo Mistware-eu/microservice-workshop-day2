@@ -1,0 +1,24 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://mist@api.mist-cloud.io:30022/sdu-test2/Default/first"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mistware_internal/mist-tools-ts": "^1.1.0",
+    "@mistware/http-lib": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.3"
+  }
+}
