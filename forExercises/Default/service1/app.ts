@@ -2,6 +2,6 @@ import {
   mistService,
   Envelope,
   postToRapid,
-} from "@mistware_internal/mist-tools-ts";
+} from "@mist-cloud-eu/mist-tools-ts";
 
 mistService({});
